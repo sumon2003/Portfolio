@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import About from './sections/About';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 
@@ -10,7 +11,7 @@ import Skills from './sections/Skills';
 function App() {
   return (
     <div className="relative overflow-x-hidden min-h-screen">
-      
+
       <Navbar />
       
       {/* Hero Section */}
@@ -44,7 +45,7 @@ function App() {
           </div>
         </div>
       </section>
-
+      <About />
       <Skills />
       <Projects />
 
