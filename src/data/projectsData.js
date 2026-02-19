@@ -5,7 +5,7 @@ export const projectsData = [
     description: "A fully responsive online store built with React and Tailwind CSS.",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
     link: "https://github.com/sumon2003/Noor-Fragrance-Shop",
-    image: "https://via.placeholder.com/400x250" 
+    image: "" 
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projectsData = [
     description: "A health monitoring frontend project for elderly people, built with Pure HTML, CSS.",
     tags: ["JavaScript", "HTML", "CSS"],
     link: "https://github.com/sumon2003/Elder-Care",
-    image: "https://via.placeholder.com/400x250"
+    image: ""
   },
   {
     id: 3,
@@ -21,6 +21,6 @@ export const projectsData = [
     description: "The very project you are looking at right now!",
     tags: ["React", "Glassmorphism", "Framer Motion"],
     link: "#",
-    image: "https://via.placeholder.com/400x250"
+    image: ""
   }
 ];
