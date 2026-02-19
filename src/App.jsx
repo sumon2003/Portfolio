@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Projects from './sections/Projects';
 
 function App() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <Navbar />
       
-      {/* Hero Section Placeholder */}
+      {/* Hero Section */}
       <section id="home" className="flex flex-col items-center justify-center min-h-screen text-center px-4">
         <div className="glass p-12 rounded-3xl max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
@@ -19,14 +20,15 @@ function App() {
             <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-bold transition">
               View Projects
             </button>
-            <button className="px-8 py-3 glass hover:bg-white/20 rounded-full font-bold transition">
+            <a href="#contact" className="px-8 py-3 glass hover:bg-white/20 rounded-full font-bold transition">
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
-      
+      {/* Projects Section */}
+      <Projects />
     </div>
   );
 }
