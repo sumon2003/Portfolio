@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import About from './sections/About';
+import Services from './sections/Services';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 
@@ -46,6 +47,7 @@ function App() {
         </div>
       </section>
       <About />
+      <Services />
       <Skills />
       <Projects />
 
