@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Musafir Sumon</span>
+          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Musafir_Sumon</span>
         </h1>
 
         {/* Dynamic Subtext */}
@@ -42,7 +42,7 @@ const Hero = () => {
           <a href="https://github.com/sumon2003" target="_blank" className="hover:text-white transition-colors">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com/in/..." target="_blank" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/md-sumon-hossain-khan-885961266/" target="_blank" className="hover:text-blue-400 transition-colors">
             <FaLinkedin size={24} />
           </a>
         </div>

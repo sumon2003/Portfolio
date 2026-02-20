@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="glass flex items-center justify-between w-full max-w-6xl px-6 py-3 rounded-2xl">
         {/* Logo */}
         <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          MS. Portfolio
+          Musafir_Sumon
         </div>
 
         {/* Desktop Menu */}
