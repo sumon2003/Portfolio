@@ -17,7 +17,7 @@ const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side: Visual/Image Placeholder */}
         <div className="flex justify-center relative">
-          <div className="w-64 h-64 md:w-80 md:h-80 glass rounded-[3rem] overflow-hidden border-2 border-blue-500/30 relative z-10">
+          <div className="w-64 h-64 md:w-100 md:h-100 glass rounded-[3rem] overflow-hidden border-2 border-blue-500/30 relative z-10">
             
             <img 
               src="src/assets/img/profile.png" 
