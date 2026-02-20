@@ -5,6 +5,7 @@ import Services from './sections/Services';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 /**
  * Main Application Component
@@ -52,11 +53,9 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
 
-      {/* Simple Footer Component */}
-      <footer className="py-10 text-center text-slate-500 border-t border-white/5">
-        <p>© {new Date().getFullYear()} Musafir Sumon. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 }
