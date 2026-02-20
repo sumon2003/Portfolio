@@ -79,12 +79,17 @@ const About = () => {
           </div>
           
           <div className="pt-6">
-             <a href="#contact" className="group relative inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl font-bold text-white overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-xl shadow-blue-600/20">
-                <span className="relative z-10">Download Resume</span>
-                <FaDownload className="relative z-10 group-hover:animate-bounce" />
-                {/* Button Hover Shine */}
-                <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
-             </a>
+            <a 
+              href="/Resume.pdf" 
+              download="Musafir_Sumon_Resume.pdf" 
+              className="group relative inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl font-bold text-white overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-xl shadow-blue-600/20"
+            >
+              <span className="relative z-10">Download Resume</span>
+              <FaDownload className="relative z-10 group-hover:animate-bounce" />
+              
+              {/* Button Hover Shine Effect */}
+              <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+            </a>
           </div>
         </div>
       </div>
