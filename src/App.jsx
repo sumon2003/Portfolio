@@ -4,6 +4,7 @@ import About from './sections/About';
 import Services from './sections/Services';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
+import Contact from './sections/Contact';
 
 /**
  * Main Application Component
@@ -50,6 +51,7 @@ function App() {
       <Services />
       <Skills />
       <Projects />
+      <Contact />
 
       {/* Simple Footer Component */}
       <footer className="py-10 text-center text-slate-500 border-t border-white/5">

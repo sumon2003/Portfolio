@@ -5,15 +5,15 @@ export const projectsData = [
     description: "A fully responsive online store built with React and Tailwind CSS.",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
     link: "https://github.com/sumon2003/Noor-Fragrance-Shop",
-    image: "" 
+    image: "src/assets/img/project2.png" 
   },
   {
     id: 2,
     title: "Elder Care",
     description: "A health monitoring frontend project for elderly people, built with Pure HTML, CSS.",
     tags: ["JavaScript", "HTML", "CSS"],
-    link: "https://github.com/sumon2003/Elder-Care",
-    image: ""
+    link: "https://sumon2003.github.io/Elder-Care-Front-end-Project/",
+    image: "src/assets/img/project1.png"
   },
   {
     id: 3,

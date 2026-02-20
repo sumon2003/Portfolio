@@ -20,7 +20,7 @@ const About = () => {
           <div className="w-64 h-64 md:w-80 md:h-80 glass rounded-[3rem] overflow-hidden border-2 border-blue-500/30 relative z-10">
             
             <img 
-              src="#" 
+              src="src/assets/img/profile.png" 
               alt="Musafir Sumon" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />
