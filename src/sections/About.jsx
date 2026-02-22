@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGraduationCap, FaCode, FaDownload } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
 import ScrollReveal from '../components/ScrollReveal';
+import profileImg from '../assets/img/profile.png';
 
 const About = () => {
   return (
