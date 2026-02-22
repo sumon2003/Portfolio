@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGraduationCap, FaCode, FaDownload } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
+import ScrollReveal from '../components/ScrollReveal';
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        
+      
         {/* Left Side: Animated Image Container */}
         <div className="relative group">
           {/* Main Photo Frame with Floating Animation */}
@@ -23,7 +24,7 @@ const About = () => {
             <img 
               src="src/assets/img/profile.png" 
               alt="Musafir Sumon" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110 group-hover:scale-100"
+              className="w-[500px] object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110 group-hover:scale-100"
             />
             {/* Bottom Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>

@@ -21,6 +21,6 @@ export const projectsData = [
     description: "The very project you are looking at right now!",
     tags: ["React", "Glassmorphism", "Framer Motion"],
     link: "#",
-    image: ""
+    image: "src/assets/img/project3.jpeg"
   }
 ];
