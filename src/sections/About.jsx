@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGraduationCap, FaCode, FaDownload } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
+import { profile } from '../config/profile';
 
 const About = () => {
   return (
@@ -21,8 +22,10 @@ const About = () => {
           {/* Main Photo Frame with Floating Animation */}
           <div className="relative z-10 w-full max-w-md mx-auto aspect-square glass rounded-[3.5rem] overflow-hidden border-2 border-white/10 group-hover:border-blue-500/50 transition-all duration-700 animate-float">
             <img 
-              src="/img/profile.png" 
-              alt="Musafir Sumon" 
+              src="/img/profile.webp" 
+              alt={profile.fullName}
+              loading="lazy"
+              decoding="async"
               className="w-[500px] object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110 group-hover:scale-100"
             />
             {/* Bottom Gradient Overlay */}

@@ -9,6 +9,8 @@ const ProjectCard = ({ project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
+          loading="lazy"
+          decoding="async"
           className="w-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100"
         />
       </div>
