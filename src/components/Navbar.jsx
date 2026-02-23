@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
-import { SiBootstrap } from "react-icons/si"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

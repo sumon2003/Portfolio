@@ -1,5 +1,5 @@
 import { 
-  FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaJs, FaPhp, FaNodeJs, FaPython, FaDatabase 
+  FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaPhp, FaNodeJs, FaPython
 } from 'react-icons/fa';
 import { SiTailwindcss, SiJquery, SiExpress, SiFlask, SiMysql, SiPostgresql, SiSqlite, SiMongodb } from 'react-icons/si';
 import { HiOutlineCode, HiOutlineDatabase, HiOutlineTemplate } from 'react-icons/hi';

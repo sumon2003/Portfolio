@@ -39,10 +39,10 @@ const Hero = () => {
 
         {/* Hero Socials */}
         <div className="flex items-center justify-center gap-6 text-slate-500">
-          <a href="https://github.com/sumon2003" target="_blank" className="hover:text-white transition-colors">
+          <a href="https://github.com/sumon2003" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaGithub size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/md-sumon-hossain-khan-885961266/" target="_blank" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/md-sumon-hossain-khan-885961266/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
             <FaLinkedin size={24} />
           </a>
         </div>

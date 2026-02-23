@@ -1,6 +1,8 @@
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
+  const hasValidLink = Boolean(project.link && project.link !== '#');
+
   return (
     <div className="glass group overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-2">
       <div className="h-48 overflow-hidden bg-slate-800">
@@ -20,9 +22,20 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </div>
-        <a href={project.link} className="inline-block w-full text-center py-2 bg-blue-600/20 border border-blue-500/50 rounded-lg hover:bg-blue-600 transition text-sm font-semibold">
-          View Project
-        </a>
+        {hasValidLink ? (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-center py-2 bg-blue-600/20 border border-blue-500/50 rounded-lg hover:bg-blue-600 transition text-sm font-semibold"
+          >
+            View Project
+          </a>
+        ) : (
+          <span className="inline-block w-full text-center py-2 bg-white/5 border border-white/10 rounded-lg text-sm font-semibold text-slate-400 cursor-not-allowed">
+            Link Coming Soon
+          </span>
+        )}
       </div>
     </div>
   );

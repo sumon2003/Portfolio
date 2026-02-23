@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGraduationCap, FaCode, FaDownload } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
-import ScrollReveal from '../components/ScrollReveal';
 
 const About = () => {
   return (
