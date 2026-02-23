@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaWhatsapp, FaArrowUp } from 'react-icons/fa';
+import { profile } from '../config/profile';
 
 const Footer = () => {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -12,14 +13,14 @@ const Footer = () => {
         </button>
       </div>
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">Musafir Sumon</h2>
+        <h2 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">{profile.fullName}</h2>
         <div className="flex justify-center gap-6 mb-8">
-          <a href="https://github.com/sumon2003" target="_blank" className="text-slate-500 hover:text-white transition-colors"><FaGithub size={22} /></a>
-          <a href="https://www.linkedin.com/in/md-sumon-hossain-khan-885961266/" target="_blank" className="text-slate-500 hover:text-blue-400 transition-colors"><FaLinkedin size={22} /></a>
-          <a href="https://wa.me/8801646819343" target="_blank" className="text-slate-500 hover:text-green-500 transition-colors"><FaWhatsapp size={22} /></a>
+          <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-white transition-colors"><FaGithub size={22} /></a>
+          <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-blue-400 transition-colors"><FaLinkedin size={22} /></a>
+          <a href={profile.socials.whatsapp} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-green-500 transition-colors"><FaWhatsapp size={22} /></a>
         </div>
         <p className="text-slate-500 text-xs border-t border-white/5 pt-8">
-          © {new Date().getFullYear()} Musafir Sumon. All rights reserved.
+          © {new Date().getFullYear()} {profile.fullName}. All rights reserved.
         </p>
       </div>
     </footer>

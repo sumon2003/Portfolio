@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaArrowRight } from 'react-icons/fa';
+import { profile } from '../config/profile';
 
 const Hero = () => {
   return (
@@ -17,9 +18,9 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Musafir_Sumon</span>
-        </h1>
+          <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
+          Hi, I&apos;m <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">{profile.brandName}</span>
+          </h1>
 
         {/* Dynamic Subtext */}
         <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -39,10 +40,10 @@ const Hero = () => {
 
         {/* Hero Socials */}
         <div className="flex items-center justify-center gap-6 text-slate-500">
-          <a href="https://github.com/sumon2003" target="_blank" className="hover:text-white transition-colors">
+          <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             <FaGithub size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/md-sumon-hossain-khan-885961266/" target="_blank" className="hover:text-blue-400 transition-colors">
+          <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
             <FaLinkedin size={24} />
           </a>
         </div>
